@@ -28,3 +28,10 @@ for i in range(N):
         elem = matrix3[i][j]
         print(elem, end=' ')
     print()
+
+
+# another
+# matrix3 = [
+#     [1 if matrix1[i][j] != matrix2[i][j] else 0 for j in range(M)]
+#     for i in range(N)
+# ]
