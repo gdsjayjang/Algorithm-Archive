@@ -7,3 +7,8 @@ for i in range(4):
             sum += arr_2d[i][j]
 
 print(sum)
+
+# another
+# for i in range(4):
+#     for j in range(i + 1):
+#         sum_val += arr_2d[i][j]
