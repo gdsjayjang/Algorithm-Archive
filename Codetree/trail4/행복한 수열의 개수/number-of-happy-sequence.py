@@ -5,12 +5,12 @@ grid = [list(map(int, input().split())) for _ in range(n)]
 if m == 1:
     print(2 * n)
 else:
+    # 행 먼저
     cnt_list_raw = []
     for i in range(n):
         cnt = 1
         max_cnt = 1
         for j in range(n-1):
-
             if grid[i][j] == grid[i][j+1]:
                 cnt += 1
                 max_cnt = max(cnt, max_cnt)
@@ -24,7 +24,6 @@ else:
         cnt = 1
         max_cnt = 1
         for i in range(n-1):
-
             if grid[i][j] == grid[i+1][j]:
                 cnt += 1
                 max_cnt = max(cnt, max_cnt)
