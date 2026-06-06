@@ -26,3 +26,14 @@ def func(n1, n2, a, b):
 
 result = func(n1, n2, a, b)
 print(result)
+
+# others
+# def func(n1, n2, a, b):
+#     for i in range(n1 - n2 + 1):
+#         if a[i:i+n2] == b:
+#             return 'Yes'
+    
+#     return 'No'
+
+# result = func(n1, n2, a, b)
+# print(result)
