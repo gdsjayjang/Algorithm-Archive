@@ -1,13 +1,13 @@
 import math
 a, b = map(int, input().split())
 
-div = a // b # 몫
-res = a % b # 나머지
+q = a // b # 몫
+r = a % b # 나머지
 
-print(f'{div}.', end='')
+print(f'{q}.', end='')
 for _ in range(20):
-    res = res % b
-    res = res * 10
-    remainder = res // b
+    r = r % b
+    r = r * 10
+    remainder = r // b
     print(remainder, end='')
     
