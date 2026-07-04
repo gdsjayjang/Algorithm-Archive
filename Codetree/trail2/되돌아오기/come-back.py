@@ -4,6 +4,7 @@ dir = [move[0] for move in moves]
 dist = [int(move[1]) for move in moves]
 
 # Please write your code here.
+# check
 x, y = 0, 0
 elapsed_time = 0
 returned_to_origin = False
