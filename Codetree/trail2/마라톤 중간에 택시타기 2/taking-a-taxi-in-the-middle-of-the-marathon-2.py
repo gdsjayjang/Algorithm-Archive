@@ -4,6 +4,7 @@ x = [p[0] for p in points]
 y = [p[1] for p in points]
 
 # Please write your code here.
+# check
 def get_distance(i, j):
     return abs(x[i] - x[j]) + abs(y[i] - y[j])
 
