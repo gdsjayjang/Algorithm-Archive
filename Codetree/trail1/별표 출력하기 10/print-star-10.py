@@ -17,6 +17,6 @@ for i in range(2*n):
         # i=7; 2
         # i=9; 1
         idx = int((2*n-i)/2)
-        for k in range(idx,-10, -1):
+        for k in range(idx,-1, -1):
             print('*', end=' ')
     print()
