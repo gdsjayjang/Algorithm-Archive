@@ -1,5 +1,5 @@
-# n = int(input())
-n = 5
+n = int(input())
+
 for i in range(2*n):
     if i % 2 ==0:
         # i=0; 1
@@ -17,6 +17,6 @@ for i in range(2*n):
         # i=7; 2
         # i=9; 1
         idx = int((2*n-i)/2)
-        for k in range(idx, -1, -1):
+        for k in range(idx,-10, -1):
             print('*', end=' ')
     print()
