@@ -23,4 +23,4 @@ print()
 result = 0
 for i in arr:
     result += sum(i)
-print(f'{result/(ga*se):1.f}')
+print(f'{result/(ga*se):.1f}')
