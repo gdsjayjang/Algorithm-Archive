@@ -1,7 +1,7 @@
 a, b = map(int, input().split())
 
 arr = []
-while a >= 1:
+while a > 1:
     mod = a % b
     a = a // b # 몫
     arr.append(mod)
@@ -17,5 +17,5 @@ res = 0
 appear = list(dic.values())
 for i in appear:
     res += i**2
-    
+
 print(res)
