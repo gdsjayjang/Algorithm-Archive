@@ -6,6 +6,5 @@ def func(arr):
     for i in range(length):
         arr[i] = abs(arr[i])
 
-    print(*arr)
-
 func(arr)
+print(*arr)
