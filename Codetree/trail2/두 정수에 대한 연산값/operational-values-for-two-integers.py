@@ -1,13 +1,13 @@
-a, b = map(int, input().split())
+arr = list(map(int, input().split()))
 
-def func(a, b):
-    big = max(a,b)
-    small = min(a,b)
+def func(arr):
+    if arr[0] > arr[1]:
+        arr[0] += 25
+        arr[1] *= 2
 
-    big += 25
-    small *= 2
+    else:
+        arr[1] += 25
+        arr[0] *= 2
+    return arr
 
-    return small, big
-
-small, big = func(a, b)
-print(small, big)
+print(*func(arr))
