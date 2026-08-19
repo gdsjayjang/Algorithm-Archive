@@ -12,10 +12,6 @@ for _ in range(N):
         num.append(0)
 
 # Please write your code here.
-# print(command)
-# ['push_back', 'push_back', 'get', 'get', 'size', 'pop_back', 'size', 'get', 'size']
-# for j in num:
-#     print(j)
 arr = [0]
 for i in range(len(command)):
     if command[i] == 'push_back':
@@ -25,4 +21,4 @@ for i in range(len(command)):
     elif command[i] == 'size':
         print(len(arr)-1)
     elif command[i] == 'pop_back':
-        arr = arr[:-1]
+        arr.pop()
