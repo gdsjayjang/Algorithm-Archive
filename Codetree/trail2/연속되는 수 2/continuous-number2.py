@@ -6,6 +6,9 @@ n_arr = len(arr)
 res = 0
 diff = 0
 for i in range(n_arr):
+    if n_arr == 1:
+        res = 1
+        break
     if i == 0 or arr[i] == arr[i-1]:
         diff += 1
     if res < diff:
